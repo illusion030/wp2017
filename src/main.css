@@ -1,0 +1,28 @@
+img {
+  border-radius: 50%;
+  border: 1px solid rgba(255,0,0,1.00);
+  height: 120px;
+  width: 120px;
+  vertical-align : middle;
+}
+.header {
+  text-align: center;
+}
+.leftbody {
+  float: left;
+  width: 29%;
+  text-align: left;
+  margin: 0 0 0 20%;
+}
+.rightbody {
+  float: left;
+  width: 29%;
+  text-align: left;
+  margin: 0 0 0 2%;
+}
+.buttom {
+  width: 60%;
+  text-align: left;
+  clear: both;
+  margin: 0 0 0 20%;
+}
