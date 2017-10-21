@@ -2,58 +2,59 @@
 <html>
   <head>
     <title>Hung-Che Lee</title>
-    <link rel = "stylesheet" href = "src/main.css" />
+    
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.css">
+    <link rel = "stylesheet" href = "src/main.css">
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.js"></script>
     <script src = "src/app.js"></script>
   </head>
   <body>
-  	<div class = 'container'>
-  		<div class = 'info'>
-        	<div class = "textbox">
-        		<h2>Personal Info</h2>
-        		<hr>
-        		<h4>
-          		Name: Hung-Che Lee &#9794;<br><br>
-          		University: National Cheng Kung University<br><br>
-          		Department: Computer Science and Information Engineering<br><br>
-          		Skill:<br>
-          		C: &#9733;&#9733;&#9733;&#9733;&#9734;<br>
-          		HTML/CSS: &#9733;&#9733;&#9733;&#9734;&#9734;<br>
-          		Swift: &#9733;&#9733;&#9734;&#9734;&#9734;<br>
-        		</h4>
-        		<h2> Project </h2>
-        		<hr>
-        		<h3>&#9758; Implement proximity service based on DEH-Narrator </h3>
-        		<h4>
-          		Because the old version of DEH-Narrator has a problem that the member can't walk too far<br>
-          		away from the narrator. We want to solve this problem, so we use Multipeer Connectivity to<br>
-          		implement D2D and proximity service to transfer data. This makes the member can freely<br>
-          		move around without the restriction of the range to the narrator.
-        		</h4>
-      		</div>
-  		</div>
-  		<div class = 'contact'>
-  			<div class = "textbox">
-        		<h2>Contact</h2>
-        		<hr>
-        		<h4>
-          		&#9758; E-mail: illusion030@gmail.com<br><br>
-          		&#9758; Tel: 0956-100-177<br><br>
-          		&#9758; <a href = "https://github.com/illusion030" target = "_blank"> Github </a>
-          		<br><br>
-          		&#9758; <a href = "https://www.facebook.com/profile.php?id=100002892990075" target = "_blank"> Facebook </a>
-        		</h4>
-      		</div>
-  		</div>
-  	</div>
-  	
-    <div class = "header">
-	    <div class = "title">
-        <h1><img src = "src/img.jpg"> Hi, I'm Hung-Che Lee </h1>
+
+    <div class = "ui fixed menu">
+      <div class = "item">
+        <img class = "ui circular image" src = "src/img.jpg">
       </div>
-      <div class = "infobtn"> <p>Info</p> </div>
-      <div class = "contactbtn"> <p>Contact</p> </div>
+      <a class = "header item"> Hi, I'm Hung-Che Lee </a>
+      <div class = "right menu">
+        <a class = "item infobtn"> Info </a>
+        <a class = "item contactbtn"> Contact </a>
+      </div>
     </div>
+
+  	<div class = "ui padded text  container info">
+        <h2>Personal Info</h2>
+        <hr>
+        <h4>
+          Name: Hung-Che Lee &#9794;<br><br>
+          University: National Cheng Kung University<br><br>
+          Department: Computer Science and Information Engineering<br><br>
+          Skill:<br>
+          C: &#9733;&#9733;&#9733;&#9733;&#9734;<br>
+          HTML/CSS: &#9733;&#9733;&#9733;&#9734;&#9734;<br>
+          Swift: &#9733;&#9733;&#9734;&#9734;&#9734;<br>
+        </h4>
+        <h2> Project </h2>
+        <hr>
+        <h3>&#9758; Implement proximity service based on DEH-Narrator </h3>
+        <h4>
+          Because the old version of DEH-Narrator has a problem that the member can't walk too far<br>
+          away from the narrator. We want to solve this problem, so we use Multipeer Connectivity to<br>
+          implement D2D and proximity service to transfer data. This makes the member can freely<br>
+          move around without the restriction of the range to the narrator.<br><br><br><br>
+        </h4>
+    </div>
+    <div class = 'ui padded text container contact transition hidden'>
+        <h2>Contact</h2>
+        <hr>
+        <h4>
+          &#9758; E-mail: illusion030@gmail.com<br><br>
+          &#9758; Tel: 0956-100-177<br><br>
+          &#9758; <a href = "https://github.com/illusion030" target = "_blank"> Github </a>
+          <br><br>
+          &#9758; <a href = "https://www.facebook.com/profile.php?id=100002892990075" target = "_blank"> Facebook </a>
+        </h4>
+    </div>  
 
   </body>
 </html>
