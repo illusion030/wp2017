@@ -14,6 +14,12 @@
   overflow: hidden;
   margin-top: 100px;
 }
+.game {
+  text-align: left;
+  text-align: left;
+  margin-top: 100px;
+  width: 60%;
+}
 body {
   height: auto;
   text-align: center;
